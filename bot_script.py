@@ -11,7 +11,7 @@ from telegram.ext import (
 )
 
 # --- تنظیمات اولیه ---
-BOT_TOKEN = "YOUR_BOT_TOKEN"  # توکن ربات شما
+BOT_TOKEN = "8255680535:AAEAwCmAneKCI1FCKWAeQeMI5KcaT14U8jw"  # توکن ربات شما
 ADMIN_IDS = set()  # Chat ID های مجاز (پس از /start اولیه، Chat ID شما به اینجا اضافه می شود)
 
 # نام فایل اکسل جدید
