@@ -296,7 +296,7 @@ async def fallback_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main() -> None:
     """اجرای ربات."""
-    application = Application.builder().token(BOT_TOKEN).bot_data({}).build()
+    application = Application.builder().token(BOT_TOKEN).application_data({}).build()
 
     conv_handler = ConversationHandler(
         entry_points=[
